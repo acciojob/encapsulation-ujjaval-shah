@@ -7,7 +7,7 @@ public class Main {
         // The field RWOnly.v is not visible
         // System.out.println(rw.v);
 
-        rw.setV(100);
-        System.out.println(rw.getV());
+        rw.setName("a new name");
+        System.out.println(rw.getName());
     }
 }
